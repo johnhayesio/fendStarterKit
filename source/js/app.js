@@ -1,1 +1,1 @@
-console.log('Welcome to the JohnHayes.io Starter Kit');
+console.log('Web Developer Starter Kit Connected!');
