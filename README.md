@@ -1,4 +1,4 @@
-# JohnHayes.io 2018 Starter Kit
+# 2018 Starter Kit
 
 This is how I start my projects, maybe you can use it too. This starter file is a collection of code snippets I have created and collected from other people.
 
