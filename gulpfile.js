@@ -1,28 +1,28 @@
 // DEPENDENCIES
-const autoprefixer = require('gulp-autoprefixer');
-const concat = require('gulp-concat');
-const del = require('del');
-const gulp = require('gulp');
-const minifycss = require('gulp-minify-css');
-const plumber = require('gulp-plumber');
-const sass = require('gulp-sass');
-const sourcemaps = require('gulp-sourcemaps');
-const rename = require('gulp-rename');
-const uglifyes = require('uglify-es');
-const composer = require('gulp-uglify/composer');
-const uglify = composer(uglifyes, console);
-const images = require('gulp-imagemin');
-const browserSync = require('browser-sync').create();
+const autoprefixer = require('gulp-autoprefixer'),
+  concat = require('gulp-concat'),
+  del = require('del'),
+  gulp = require('gulp'),
+  minifycss = require('gulp-minify-css'),
+  plumber = require('gulp-plumber'),
+  sass = require('gulp-sass'),
+  sourcemaps = require('gulp-sourcemaps'),
+  rename = require('gulp-rename'),
+  uglifyes = require('uglify-es'),
+  composer = require('gulp-uglify/composer'),
+  uglify = composer(uglifyes, console),
+  images = require('gulp-imagemin'),
+  browserSync = require('browser-sync').create();
 
 // PATHS
-const styleSrc = 'source/sass/**/*.sass';
-const styleDest = 'build/assets/css/';
-const htmlSrc = 'source/';
-const htmlDest = 'build/';
-const vendorSrc = 'source/js/vendors/';
-const vendorDest = 'build/assets/js/';
-const scriptSrc = 'source/js/*.js';
-const scriptDest = 'build/assets/js/';
+const styleSrc = 'source/sass/**/*.sass',
+  styleDest = 'build/assets/css/',
+  htmlSrc = 'source/',
+  htmlDest = 'build/',
+  vendorSrc = 'source/js/vendors/',
+  vendorDest = 'build/assets/js/',
+  scriptSrc = 'source/js/*.js',
+  scriptDest = 'build/assets/js/';
 
 
 // Stand Alone Tasks
