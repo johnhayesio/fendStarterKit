@@ -22,6 +22,11 @@ After you have it on your pc, you need to go into the console to the project fol
 npm install
 ```
 
+Images will not show up immediately and will need to be initially ported to the build folder. Image minification has been added within gulp to accomplish this. Anytime you add new images to the src folder, you will need to minify those images as well for them to show up. Do so by executing the following command.
+```
+gulp images
+```
+
 ***
 
 ## How to use
